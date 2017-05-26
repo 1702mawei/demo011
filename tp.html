@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div>DIV</div>
+		<span>SPAN</span>
+		<p>P</p>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script>
+$(function($){
+	var $tp=$("body *:not(script)");	
+	//var $tp=$("body *");	
+	for(i=0;i<$tp.length;i++){
+		console.log($tp[i].innerHTML);
+		
+	}
+	
+	
+});
+	
+	
+</script>
+	</body>
+</html>
